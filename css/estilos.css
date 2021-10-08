@@ -276,4 +276,21 @@ span {
   font-weight: 300;
   margin: 1rem;
 }
+
+.contactos{
+  text-decoration: underline;
+  color: #BF8F73;
+  font-weight: 700;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.ListaPrecios{
+  text-decoration: underline;
+  color: #BF8F73;
+  font-weight: 700;
+  margin-top: 1rem;
+  text-align: center;
+}
+
 /*# sourceMappingURL=estilos.css.map */
