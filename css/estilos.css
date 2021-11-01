@@ -170,6 +170,16 @@ a {
           transform: scale(1.01);
 }
 
+.btn-especial{
+  background-color: #BF8F73;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.btn-especial:hover{
+  background-color: #BF8F99;
+}
+
 .footer .footerDer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -206,10 +216,12 @@ a {
   padding: 1rem;
 }
 
+@media all and (min-width: 578px){
 .bordeado li a:hover {
   background-color: #C4C4C4;
   padding: 1.2rem;
   border-radius: 2rem;
+}
 }
 
 .bandera {
@@ -306,6 +318,56 @@ span {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+.tablaCentrado{
+  margin: auto;
+}
+
+.titularEventos{
+  margin: auto;
+  font-size: 2rem;
+  text-decoration: underline;
+  color: #BF8F73;
+}
+
+@media all and (min-width: 578px){
+  .map-responsive{
+    overflow: hidden;
+    padding-bottom: 29%;
+    position: relative;
+    height: 0;
+  }
+}
+  
+@media all and (max-width: 578px){
+  .nav-link{
+    font-size: 1rem;
+    margin-top: 0px;
+  }
+  .nav-item{
+    height:2rem;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  h2{
+    font-size: 1rem;
+  }
+  .carousel{
+    margin-top: 1rem;
+  }
+  .titularEventos{
+    margin: auto;
+    font-size: 1rem;
+    text-decoration: underline;
+    color: #BF8F73;
+  }
+  .textoEventos{
+    margin: auto;
+    text-align: center;
+    font-size: .8rem;
+    color: #000000;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
