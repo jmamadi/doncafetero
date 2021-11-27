@@ -35,36 +35,35 @@
  	    </ul>
  	  </div>
 	  </nav>
-    <p class="contactos color-secciones-title">CONTACTANOS</p>
-  
+    <h1>DON CAFETERO - CONTACTANOS</h1>
     <div id=formulario class="selector-for-some-widget container col-lg-6">
       <form class="rounded mg-a" method="POST" action="recibe.html">
         <div class="form-row">
           <div class="col-lg-12 col-sm-10 m-2">
-            <input type="text" class="form-control" placeholder="Nombre">
+            <input type="text" class="form-control estiloForm" placeholder="Nombre">
           </div>
         </div>
         <div class="form-row">
           <div class="col-lg-12 col-sm-10 m-2">
-            <input type="text" class="form-control" placeholder="Apellido">
+            <input type="text" class="form-control estiloForm" placeholder="Apellido">
           </div>
         </div>
         <div class="form-row">
           <div class="col-lg-12 col-sm-10 m-2">
-            <input type="text" class="form-control" placeholder="Email">
+            <input type="text" class="form-control estiloForm" placeholder="Email">
           </div>
         </div>
         <div class="form-check form-check-inline col-3  m-2">
           <input class="form-check-input " type="radio" name="cliente_proveedor" id="Cliente" value="1">
-          <label class="form-check-label m-2" for="inlineRadio1">Cliente</label>
+          <label class="form-check-label m-2" for="Cliente">Cliente</label>
         </div>
         <div class="form-check form-check-inline col-3 m-2">
           <input class="form-check-input" type="radio" name="cliente_proveedor" id="Proveedor" value="2">
-          <label class="form-check-label m-2" for="inlineRadio2">Proveedor</label>
+          <label class="form-check-label m-2" for="Proveedor">Proveedor</label>
         </div>
         <div class="form-group col-lg-12 m-2">
           <label for="Comentarios">Comentarios</label>
-          <textarea class="form-control formularioComentarios" id="Comentarios" rows="3"></textarea>
+          <textarea class="form-control formularioComentarios estiloForm" id="Comentarios" rows="3"></textarea>
         </div>
         <div class="form-check m-2">
           <input class="form-check-input" name="informacion[]" type="checkbox" value="newsletter" id="news" checked="">
@@ -78,7 +77,7 @@
             ¿Recibir descuentos?
           </label>
         </div>
-        <select class="form-check form-check-inline col-lg-3 col-sm-6 m-2" name="localcercano">
+        <select class="form-check form-check-inline col-lg-3 col-sm-6 m-2 custom-select estiloForm" name="localcercano">
           <option value="local" selected="" disabled="">Local</option>
           <option value="caballito">Caballito</option>
           <option value="palermo">Palermo</option>
@@ -86,15 +85,14 @@
         </select>
         <div class="form-row">
           <div class="col-lg-6 col-sm-3">
-          <input class="btn btn-especial btn-lg" type="reset" value="Limpiar">
+            <input class="btn btn-especial btn-lg" type="reset" value="Limpiar">
+          </div>
+          <div class="col-lg-6 col-sm-3">
+            <input class="btn btn-especial btn-lg" type="submit" value="Enviar">
+          </div>
         </div>
-        <div class="col-lg-6 col-sm-3">
-          <input class="btn btn-especial btn-lg" type="submit" value="Enviar">
-        </div>
-      </div>
       </form>
     </div>
-
     <div class="container-fluid pad15 font-size-1rem font-weight-regular secciones-footer color-secciones-footer footer">
       <div class="footerIzq">
         <p>© 2021 Don Cafetero, todos los derechos reservados.</p>
